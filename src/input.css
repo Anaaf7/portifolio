@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fontes */
+  --font-grandstander: "grandstander", sans-serif;
+  --font-grandstander-bold: "grandstander-bold", sans-serif;
+  --font-notable: "notable", sans-serif;
+
+  /* Cores */
+  --color-preto: #262626;
+  --color-azul: #699FDB;
+  --color-azul-escuro: #4F83BE;
+  --color-verde: #6398A8;
+  --color-verde-escuro: #4C7683;
+  --color-vermelho: #EA6F6F;
+  --color-vermelho-escuro: #DE5F5F;
+  --color-bege: #F6E8DD;
+  --color-bege-escuro: #E8D5C7;
+}
+
+/* Fontes */
+@font-face {
+  font-family: "grandstander";
+  src: url("../src/fonts/Grandstander-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "grandstander-bold";
+  src: url("../src/fonts/Grandstander-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "notable";
+  src: url("../src/fonts/Notable-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
