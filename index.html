@@ -1,16 +1,194 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifólio</title>
 
-    <link rel="stylesheet" href="./dist/output.css">
-</head>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <script src="/src/js/script.js"></script>
+  </head>
 
-<body>
-    <h1 class="text-azul text-9xl font-notable">Testando</h1>
+  <body class="font-grandstander">
+    <header>
+      <h4
+        class="relative z-20 mx-3 my-1 font-fascinate text-azul-escuro text-shadow-sm"
+      >
+        Ana.dev
+      </h4>
+    </header>
 
-    <img src="./src/imgs/figma-icon.png" alt="">
-</body>
+    <!--Atalhos -->
+    <div class="relative z-20 font-grandstander-bold">
+      <!-- Sobre mim -->
+      <div
+        class="flex items-center justify-center absolute top-20 left-5 -rotate-45 w-32 h-32 text-azul/25 lg:w-52 lg:h-32 lg:left-2/5 lg:top-20"
+      >
+        <svg
+          id="visual"
+          viewBox="0 0 900 600"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          version="1.1"
+          class="drop-shadow-md drop-shadow-black/20 absolute w-full h-full lg:drop-shadow-lg"
+        >
+          <g transform="translate(414.9739818920861 297.28494431179837)">
+            <path
+              d="M128 -217.2C156 -205.5 162 -151.3 181.5 -108C201 -64.7 234 -32.3 247 7.5C260 47.3 253 94.7 223.7 121.1C194.5 147.5 143 153 102 169.3C61 185.7 30.5 212.8 -5.2 221.8C-40.8 230.7 -81.7 221.5 -113.4 199.8C-145.2 178.1 -167.9 144.1 -168.6 108.7C-169.4 73.3 -148.2 36.7 -153.9 -3.3C-159.7 -43.3 -192.4 -86.7 -180.7 -102.9C-168.9 -119.1 -112.6 -108.3 -75 -114.5C-37.5 -120.6 -18.8 -143.8 15.6 -170.9C50 -197.9 100 -228.9 128 -217.2"
+              fill="currentColor"
+              class="atalho cursor-pointer transition duration-400 lg:hover:scale-105 lg:hover:text-azul"
+            ></path>
+          </g>
+        </svg>
+
+        <span
+          class="pointer-events-none absolute z-30 text-xxs text-shadow-sm text-white lg:text-sm"
+          >Sobre <br />
+          mim</span
+        >
+      </div>
+
+      <!-- Tecnologias -->
+      <div
+        class="flex items-center justify-center absolute top-0 left-16 -rotate-30 w-36 h-32 text-vermelho/25 lg:right-126 lg:left-auto lg:top-5 lg:w-52 lg:h-32 lg:-rotate-12"
+      >
+
+        <svg
+          id="visual"
+          viewBox="0 0 900 600"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          version="1.1"
+          class="absolute w-full h-full rotate-20"
+        >
+         <g transform="translate(425.62784212693975 312.9188884846082)">
+            <path
+              d="M131.4 -205.2C171.3 -178.9 205.3 -144.1 230.1 -101.6C254.8 -59.1 270.5 -9 252.9 28.5C235.3 66.1 184.5 91 144.9 111.6C105.3 132.3 76.9 148.7 46 158.6C15.1 168.6 -18.2 172.1 -45.2 160.9C-72.2 149.8 -92.8 124 -133.7 101.9C-174.6 79.7 -235.8 61.2 -245.2 31.9C-254.7 2.6 -212.4 -37.6 -186.3 -81.1C-160.3 -124.7 -150.4 -171.7 -122.1 -203.3C-93.7 -234.8 -46.9 -250.9 -0.5 -250.1C45.8 -249.2 91.5 -231.5 131.4 -205.2"
+              fill="currentColor"
+class="hidden lg:block"            ></path>
+          </g>
+        </svg>
+
+          <svg
+          id="visual"
+          viewBox="0 0 900 600"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          version="1.1"
+          class="drop-shadow-md drop-shadow-black/20 absolute w-full h-full lg:drop-shadow-lg"
+        >
+          <g transform="translate(438.7512477237514 313.16697511748475)">
+            <path
+              d="M133 -226.3C175.2 -205.9 214.5 -176.2 238.2 -136.9C261.8 -97.7 269.9 -48.8 251.7 -10.5C233.5 27.8 189.1 55.7 165.1 94.3C141.1 133 137.5 182.6 113.4 193.6C89.3 204.7 44.7 177.4 -2.7 182C-50 186.6 -100 223.2 -142.7 222.9C-185.4 222.5 -220.9 185.3 -233.6 142C-246.2 98.7 -236.1 49.3 -215.9 11.7C-195.7 -26 -165.4 -52 -140.6 -74.4C-115.9 -96.7 -96.7 -115.5 -74.2 -147.3C-51.7 -179.2 -25.8 -224.1 9.7 -241C45.3 -257.9 90.7 -246.7 133 -226.3"
+              fill="currentColor"
+              class="atalho cursor-pointer transition duration-400 lg:hover:scale-105 lg:hover:text-azul"
+            ></path>
+          </g>
+        </svg>
+
+        <span
+          class="pointer-events-none absolute z-30 text-xxs text-shadow-sm text-white lg:text-sm"
+          >Tecnologias</span
+        >
+      </div>
+
+      <!-- Projetos -->
+      <div
+        class="flex items-center justify-center absolute -top-10 left-36 -rotate-20 w-36 h-32 text-verde/30 lg:right-96 lg:left-auto lg:-top-5 lg:w-52 lg:h-32 lg:rotate-0"
+      >
+        <svg
+          id="visual"
+          viewBox="0 0 900 600"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          version="1.1"
+          class="drop-shadow-md drop-shadow-black/20 absolute w-full h-full"
+        >
+          <g transform="translate(425.62784212693975 312.9188884846082)">
+            <path
+              d="M138.4 -237.9C176.8 -217.5 203.6 -175.3 222.9 -132C242.2 -88.7 254.1 -44.3 241.3 -7.4C228.4 29.5 190.9 59 164.8 90.6C138.7 122.2 124.1 155.9 98.5 181.2C73 206.4 36.5 223.2 -3 228.4C-42.5 233.6 -85 227.2 -122.8 209.1C-160.6 190.9 -193.8 160.9 -197.5 124.1C-201.3 87.3 -175.6 43.7 -171.3 2.5C-167 -38.7 -183.9 -77.3 -183.2 -119.3C-182.4 -161.3 -164 -206.7 -130.5 -229.8C-97 -253 -48.5 -254 0.7 -255.3C50 -256.6 100 -258.2 138.4 -237.9"
+              fill="currentColor"
+              class="atalho cursor-pointer transition duration-400 lg:hover:scale-105 lg:hover:text-azul"
+            ></path>
+          </g>
+        </svg>
+
+        <span
+          class="pointer-events-none absolute z-30 text-xxs text-shadow-sm text-white lg:text-sm"
+          >Projetos</span
+        >
+      </div>
+
+      <!-- Contato -->
+      <div
+        class="flex items-center justify-center absolute -top-14 right-0 w-36 h-32 text-azul-escuro/25 lg:right-64 lg:left-auto lg:-top-7 lg:w-52 lg:h-32 lg:rotate-0"
+      >
+        <svg
+          id="visual"
+          viewBox="0 0 900 600"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          version="1.1"
+          class="absolute w-full h-full lg:drop-shadow-lg"
+        >
+          <g transform="translate(425.62784212693975 312.9188884846082)">
+            <path
+              d="M138.4 -237.9C176.8 -217.5 203.6 -175.3 222.9 -132C242.2 -88.7 254.1 -44.3 241.3 -7.4C228.4 29.5 190.9 59 164.8 90.6C138.7 122.2 124.1 155.9 98.5 181.2C73 206.4 36.5 223.2 -3 228.4C-42.5 233.6 -85 227.2 -122.8 209.1C-160.6 190.9 -193.8 160.9 -197.5 124.1C-201.3 87.3 -175.6 43.7 -171.3 2.5C-167 -38.7 -183.9 -77.3 -183.2 -119.3C-182.4 -161.3 -164 -206.7 -130.5 -229.8C-97 -253 -48.5 -254 0.7 -255.3C50 -256.6 100 -258.2 138.4 -237.9"
+              fill="currentColor"
+              class="hidden lg:block"
+            ></path>
+          </g>
+        </svg>
+
+        <svg
+          id="visual"
+          viewBox="0 0 900 600"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          version="1.1"
+          class="absolute w-full h-full"
+        >
+          <g transform="translate(443.07918330886156 341.14109262341145)">
+            <path
+              d="M131.4 -205.2C171.3 -178.9 205.3 -144.1 230.1 -101.6C254.8 -59.1 270.5 -9 252.9 28.5C235.3 66.1 184.5 91 144.9 111.6C105.3 132.3 76.9 148.7 46 158.6C15.1 168.6 -18.2 172.1 -45.2 160.9C-72.2 149.8 -92.8 124 -133.7 101.9C-174.6 79.7 -235.8 61.2 -245.2 31.9C-254.7 2.6 -212.4 -37.6 -186.3 -81.1C-160.3 -124.7 -150.4 -171.7 -122.1 -203.3C-93.7 -234.8 -46.9 -250.9 -0.5 -250.1C45.8 -249.2 91.5 -231.5 131.4 -205.2"
+              fill="currentColor"
+              class="atalho cursor-pointer transition duration-400 lg:hover:scale-105 lg:hover:text-azul/60"
+            ></path>
+          </g>
+        </svg>
+
+        <span
+          class="pointer-events-none absolute z-30 text-xxs text-shadow-sm text-white lg:text-sm"
+          >Contato</span
+        >
+      </div>
+    </div>
+
+    <!-- Imagem da desenvolvedora -->
+    <img
+      src="../src/imgs/ana.png"
+      alt="Foto da desenvolvedora"
+      class="absolute top-24 right-5 z-20 w-46 lg:right-20 lg:w-96"
+    />
+
+    <!-- Imagem de fundo -->
+    <img
+      src="../src/imgs/paleta.png"
+      alt="Paleta de cores comumente utilizada por pintores"
+      class="drop-shadow-md drop-shadow-black/20 drop-border max-w-none w-xl absolute -top-10 -right-56 -rotate-20 lg:-top-20 lg:-right-46 lg:w-5xl lg:rotate-0"
+    />
+
+    <div
+      class="relative z-10 flex items-start mx-3 mt-72 lg:items-center h-screen lg:ml-20 lg:mt-0"
+    >
+      <h1
+        class="flex flex-col font-notable text-lg text-vermelho text-shadow-sm lg:text-3xl"
+      >
+        <span> Olá, sou uma</span>
+        <span class="text-5xl text-preto lg:text-8xl -mt-2">Dev</span>
+        <span class="text-5xl text-preto lg:text-8xl">front-end</span>
+        <span>e <span class="text-preto -mt-1">designer</span></span>
+      </h1>
+    </div>
+  </body>
 </html>

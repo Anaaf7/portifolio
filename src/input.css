@@ -5,6 +5,7 @@
   --font-grandstander: "grandstander", sans-serif;
   --font-grandstander-bold: "grandstander-bold", sans-serif;
   --font-notable: "notable", sans-serif;
+   --font-fascinate: "fascinate", sans-serif;
 
   /* Cores */
   --color-preto: #262626;
@@ -16,6 +17,9 @@
   --color-vermelho-escuro: #DE5F5F;
   --color-bege: #F6E8DD;
   --color-bege-escuro: #E8D5C7;
+
+  /*Tamanhos*/
+  --text-xxs: 0.65rem;
 }
 
 /* Fontes */
@@ -39,3 +43,11 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "fascinate";
+  src: url("../src/fonts/Fascinate-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
