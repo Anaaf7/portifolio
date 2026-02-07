@@ -2,10 +2,12 @@
 
 @theme {
   /* Fontes */
-  --font-grandstander: "grandstander", sans-serif;
-  --font-grandstander-bold: "grandstander-bold", sans-serif;
+  --font-snPro: "snPro", sans-serif;
+  --font-snPro-bold: "snPro-bold", sans-serif;
   --font-notable: "notable", sans-serif;
    --font-fascinate: "fascinate", sans-serif;
+   --text-7.5xl: 5rem;
+   --text-4.5xl: 2.50rem;
 
   /* Cores */
   --color-preto: #262626;
@@ -20,19 +22,34 @@
 
   /*Tamanhos*/
   --text-xxs: 0.65rem;
+
+  /* Animações */
+  --animate-pulse-color: pulse-color 10s cubic-bezier(0.7, 0, 0.7, 1) infinite;
+}
+
+@keyframes pulse-color {
+  0%, 100% {
+    background-color: #4C7683; 
+  }
+  25% {
+    background-color: #699FDB; 
+  }
+  50% {
+    background-color: #EA6F6F; 
+  }
 }
 
 /* Fontes */
 @font-face {
-  font-family: "grandstander";
-  src: url("../src/fonts/Grandstander-Regular.ttf") format("truetype");
+  font-family: "snPro";
+  src: url("../src/fonts/snPro-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "grandstander-bold";
-  src: url("../src/fonts/Grandstander-Bold.ttf") format("truetype");
+  font-family: "snPro-bold";
+  src: url("../src/fonts/snPro-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
