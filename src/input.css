@@ -22,6 +22,7 @@
 
   /*Tamanhos*/
   --text-xxs: 0.65rem;
+  --w-86: 20rem;
 
   /* Animações */
   --animate-pulse-color: pulse-color 10s cubic-bezier(0.7, 0, 0.7, 1) infinite;
