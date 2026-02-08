@@ -5,7 +5,7 @@
   --font-snPro: "snPro", sans-serif;
   --font-snPro-bold: "snPro-bold", sans-serif;
   --font-notable: "notable", sans-serif;
-   --font-fascinate: "fascinate", sans-serif;
+   --font-grandstander-bold: "grandstander-bold", sans-serif;
    --text-7.5xl: 5rem;
    --text-4.5xl: 2.50rem;
 
@@ -26,6 +26,9 @@
 
   /* Animações */
   --animate-pulse-color: pulse-color 10s cubic-bezier(0.7, 0, 0.7, 1) infinite;
+
+  /*Sombra*/
+  --shadow-projetos: -20px -15px 0px #D0E0E5;
 }
 
 @keyframes pulse-color {
@@ -56,16 +59,17 @@
 }
 
 @font-face {
+  font-family: "grandstander-bold";
+  src: url("../src/fonts/Grandstander-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "notable";
   src: url("../src/fonts/Notable-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
-@font-face {
-  font-family: "fascinate";
-  src: url("../src/fonts/Fascinate-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 
